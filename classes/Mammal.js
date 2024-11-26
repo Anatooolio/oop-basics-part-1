@@ -1,13 +1,13 @@
 export class Mammal {
-	constructor(name = null) {
+	constructor(name) {
 		this.name = name
 	}
 
 	eats() {
-		console.log(`${this.name} eats food`)
+		return `${this.name} eats food`
 	}
 }
 
-const mammal = new Mammal('Beer')
-// console.log(mammal)
-mammal.eats()
+const mammal = new Mammal('Bear')
+
+// console.log(mammal.eats())
