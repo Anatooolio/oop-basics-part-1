@@ -25,7 +25,7 @@ export class Dog extends Mammal {
 }
 
 const dog = new Dog('Misha', 'Arina', 8, 'PASHTET')
-console.log(dog)
-console.log(dog.eats())
-console.log(dog.isPuppy())
-console.log(dog.info())
+// console.log(dog)
+// console.log(dog.eats())
+// console.log(dog.isPuppy())
+// console.log(dog.info())
